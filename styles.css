@@ -1,0 +1,719 @@
+@font-face{
+    font-family: GOFont;
+    src:url(Requirements/GOTHIC.TTF);
+}
+*{
+    padding: 0;
+    margin: 0;
+    font-family: GOFont;
+}
+.home, .movies, .movie{
+    background: url("./Requirements/Requirements-01.png") no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+}
+.contact, .help, .sign-up, .login, .about, .cookies, .copy-rights, .terms-conditions{
+    background: url("./Requirements/Requirements-04.png") no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+}
+
+.color{
+    background-color: black;
+    opacity: 60%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    z-index: -1;
+}
+
+/*Header Start*/
+.header{
+    width: 100%;
+    height: 90px;
+    background-color: #3A3A3A;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .header-logo img{
+    width: 70px;
+    height: 70px;
+    margin: 0 20px;
+}
+
+
+.header .header-comp ul{
+    list-style: none;
+    margin: 0 35px;
+    white-space: nowrap;
+}
+
+.header .header-comp ul li{
+    display: inline;
+    margin: 30px;
+}
+
+.header .header-comp ul li a{
+    text-decoration: none;
+    color: #F2F2F2;
+    font-size: 20px;
+}
+
+.header .header-comp ul li a:hover{
+    color: #E5890A;
+    border-bottom: solid 3px #E5890A;
+    transition-duration: 0.3s;
+    transition-delay: 0.1s;
+}
+
+/*Header End*/
+
+/*Footer Start*/
+.footer{
+    background:#3A3A3A;
+    width: 100%;
+    height: 150px;
+    bottom: 0;
+    left: 0;
+    align-items: center;
+    display: inline-flex;
+}
+.footer .footer-comp{
+    text-align: center;
+    margin: auto;
+    align-items: center;
+}
+
+.footer-comp .footer-logos{
+    justify-content: space-between;
+    display:inline-flex;
+    align-items: center;
+}
+
+.footer-comp .footer-logos a img{
+    width: 200px;
+}
+
+.footer-comp .footer-logos ul{
+    list-style: none;
+    white-space: nowrap;
+}
+
+.footer-comp .footer-logos ul li{
+    display: inline-flex;
+    margin: 0 5px;
+}
+
+.footer-comp .footer-logos ul li a{
+    text-decoration: none;
+    border: solid #F2F2F2 1px;
+    border-radius: 50%;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    font-size: 30px;
+    color:#F2F2F2;
+    line-height: 40px;
+    padding: 5px;
+}
+.footer-comp .footer-logos ul li a:hover{
+    color:#3A3A3A;
+    background-color: #F2F2F2;
+    transition-duration: 0.3s;
+    transition-delay: 0.1s;
+}
+.footer-comp .footer-links{
+    white-space: nowrap;
+}
+.footer-comp .footer-links a{
+    display: inline-flex;
+    text-decoration: none;
+    color: #F2F2F2;
+    font-size: 15px;
+    margin: 2px 15px;
+}
+.footer-comp .footer-links a:hover{
+    color:#E5890A;
+    transform: translateY(-2px);
+    transition-duration: 0.3s;
+    transition-delay: 0.1s;
+}
+.footer-comp p{
+    color: #999999;
+    font-size: 12px;
+    margin: 5px;
+}
+/*Footer End*/
+
+/*Home Page Start*/
+.home .now-playing{
+    text-align: center;
+}
+.home .now-playing h1{
+    color: #F2F2F2;
+    font-size: 50px;
+    font-weight:lighter;
+    margin: 40px;
+}
+.home .now-playing .posters{
+    white-space: nowrap;
+    margin: 15px;
+}
+.home .now-playing .posters a img{
+    width: 240px;
+    margin:  20px;
+    display: inline-flex;
+    border: #F2F2F2 solid 4px;
+    opacity: 70%;
+}
+.home .now-playing .posters a img:hover{
+    transform: scale(1.03) translateY(-10px);
+    box-shadow:  0 0 15px #E5890A;
+    transition: 0.5s;
+    opacity: 100%;
+}
+.home .now-playing .more-movies{
+    text-decoration: none;
+    color: #F2F2F2;
+    background-color: #E5890A;
+    border: none;
+    font-size: 25px;
+    border-radius: 50px;
+    padding: 10px 20px;
+    margin: 10px;
+    display: inline-block;
+}
+.home .now-playing .more-movies:hover{
+    background-color: #9D5C0D;
+    transition: 0.5s;
+}
+
+.home .now-playing .sign-up-bottom{
+    color: #999999;
+    text-decoration: none;
+    display: inline-block;
+}
+.home .now-playing .sign-up-bottom:hover{
+    text-decoration: underline;
+}
+
+.home .our-services {
+    margin-top: 50px;
+}
+.home .our-services h1{
+    color: #F2F2F2;
+    font-size: 50px;
+    font-weight:lighter;
+    margin: 0px 20px;
+}
+.home .our-services .media{
+    align-items: center;
+    display: inline-flex;
+}
+.home .our-services .media iframe{
+    width: 640px;
+    height: 360px;
+    border: none;
+    margin: 40px 20px;
+}
+
+.home .our-services .media .services {
+    display: inline-flex;
+    margin-left: 200px;
+}
+.home .our-services .media .services .col{
+    flex: 50%;
+    margin: 0 20px;
+}
+.home .our-services .media .services img{
+    width: 120px;
+    border: #F2F2F2 solid 2px;
+    border-radius: 50%;
+}
+.home .our-services .media .services .image{
+    margin: 40px 40px;
+    text-align: center;
+} 
+.home .our-services .media .services .image p{
+    font-size: 15px;
+    color: #F2F2F2;
+} 
+.home .our-services .media .services .image:hover img{
+    border: #E5890A solid 2px;
+    transform: translateY(-3px);
+    transition: 0.5s;
+    
+}
+.home .our-services .media .services .image:hover p{
+    color: #E5890A;
+    transform: translateY(-3px);
+    transition: 0.5s;
+    
+}
+/*Home Page End*/
+
+/*Movies Page Start*/
+.movies h1{
+    color: #F2F2F2;
+    font-size: 30px;
+    margin: 20px;
+    font-weight: lighter;
+}
+.movies .posters{
+    margin: 20px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.movies .posters .poster{
+    background-color:#999999;
+    border-radius: 40px;
+    width: 350px;
+    height: 550px;
+    margin: 20px 50px;
+}
+.movies .posters .poster img{
+    border-radius: 20px;
+    width: 300px;
+    display: block  ;
+    margin: 20px auto;
+
+}
+.movies .posters .poster h2{
+    color: #F2F2F2;
+    margin: 0 25px;
+    font-size: 20px;
+}
+.movies .posters .poster p{
+    color: #F2F2F2;
+    margin: 0 25px;
+    font-size: 15px;
+    font-weight: lighter;
+}
+.movies .posters .poster:hover{
+    background-color:#3A3A3A;
+    transform: scale(1.05) translateY(-4px);
+    box-shadow: #E5890A 0 0 15px;
+    transition: 0.5s;
+}
+.movies .posters .poster:hover h2,.movies .posters .poster:hover p{
+    color: #E5890A;
+    transition: 0.5s;
+}
+
+/*Movies Page End*/
+
+/*Contact Us Page Start*/
+.contact{
+    text-align: center;
+    display: block;
+    justify-content: center;
+}
+.contact h1{
+    margin: 20px;
+    color: #F2F2F2;
+    font-size: 60px;
+}
+.contact .contact-ways div{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.contact .contact-ways div .fa{
+    text-decoration: none;
+    line-height: 60px;
+    color: #F2F2F2;
+    border:solid 2px #F2F2F2 ;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    padding: 5px;
+    margin: 30px auto;
+    font-size: 45px;
+    background-color: rgb(242, 242, 242,0.1);
+    
+}
+.contact .contact-ways div .link{
+    text-decoration: none;
+    color: #F2F2F2;
+    font-size: 40px;
+    font-weight: lighter;
+    position: absolute;
+    opacity: 0;
+}
+.contact .contact-ways div:hover{
+    display: block;
+    transition: 1s;
+}
+.contact .contact-ways div:hover #F{
+    background-color: #3A3A3A;
+    box-shadow: #E5890A 0 0 15px;
+    transform: rotate(-360deg);
+    border: #3a3a3a solid 2px;
+    transition: 0.5s;
+}
+.contact .contact-ways div:hover #I {
+    opacity: 100%;
+    position: static;
+    margin-left: 5px;
+    transition: 1s;
+}
+.contact .contact-ways div .link:hover{
+    color: #E5890A;
+    transition: 0.5s;
+}
+
+/*Contact Us Page End*/
+
+/*Help Page Start*/
+.help form{
+    text-align: center;
+}
+.help form h1{
+    font-size: 40px;
+    margin: 20px;
+    color: #F2F2F2;
+}
+.help form h2{
+    font-size: 20px;
+    font-weight: lighter;
+    margin: 20px;
+    color: #F2F2F2;
+}
+.help form input, .help form textarea{
+    border-radius: 50px;
+    border: none;
+    margin: 20px auto;
+    display: block;
+    width: 480px;
+    height: 50px;
+    padding: 0 15px;
+    background-color: #F2F2F2;
+    color: #3A3A3A;
+}
+
+.help form input:focus,.help form textarea:focus{
+    outline: none;
+}
+.help form textarea{
+    padding: 25px 15px;
+    height: 200px;
+    resize: none;
+
+}
+.help form input[type=submit]{
+    width: 500px;
+    background-color: #E5890A;
+    color: #F2F2F2;
+    font-size: 20px;
+}
+.help form input[type=submit]:hover{
+    background-color:#9D5C0D;
+    transition: 0.5s;
+}
+
+/*Help Page End*/
+
+/*Sign Up Page Start*/
+.sign-up form h1{
+    text-align: center;
+    font-size: 40px;
+    margin: 20px;
+    color: #F2F2F2;
+}
+
+.sign-up form input{
+    border-radius: 50px;
+    border: none;
+    margin: 25px auto;
+    display: block;
+    width: 480px;
+    height: 50px;
+    padding: 0 15px;
+    background-color: #F2F2F2;
+    color: #3A3A3A;
+}
+
+.sign-up form input:focus{
+    outline: none;
+}
+
+.sign-up form input[type=submit]{
+    width: 500px;
+    background-color: #E5890A;
+    color: #F2F2F2;
+    font-size: 20px;
+}
+.sign-up form input[type=submit]:hover{
+    background-color:#9D5C0D;
+    transition: 0.5s;
+}
+.sign-up .have-account div h1{
+    text-align: center;
+    margin: 80px 0 25px 0;
+    color: #F2F2F2;
+    font-size: 30px;
+}
+.sign-up .have-account div a{
+    text-align: center;
+    text-decoration: none;
+    margin: auto;
+    display: block;
+    width: 500px;
+    padding: 15px 0;
+    background-color: #E5890A;
+    color: #F2F2F2;
+    font-size: 20px;
+    border-radius: 50px;
+    border: none;
+}
+.sign-up .have-account div a:hover{
+    background-color:#9D5C0D;
+    transition: 0.5s;
+}
+
+/*Sign Up Page End*/
+
+/*Login Page Start*/
+.login form h1{
+    text-align: center;
+    font-size: 40px;
+    margin: 20px;
+    color: #F2F2F2;
+}
+
+.login form input{
+    border-radius: 50px;
+    border: none;
+    margin: 25px auto;
+    display: block;
+    width: 480px;
+    height: 50px;
+    padding: 0 15px;
+    background-color: #F2F2F2;
+    color: #3A3A3A;
+}
+
+.login form input:focus{
+    outline: none;
+}
+
+.login form input[type=submit]{
+    width: 500px;
+    background-color: #E5890A;
+    color: #F2F2F2;
+    font-size: 20px;
+}
+.login form input[type=submit]:hover{
+    background-color:#9D5C0D;
+    transition: 0.5s;
+}
+
+.login .have-account div h1{
+    text-align: center;
+    margin: 100px 0 25px 0;
+    color: #F2F2F2;
+    font-size: 30px;
+}
+.login .have-account div a{
+    text-align: center;
+    text-decoration: none;
+    margin: auto;
+    display: block;
+    width: 500px;
+    padding: 15px 0;
+    background-color: #E5890A;
+    color: #F2F2F2;
+    font-size: 20px;
+    border-radius: 50px;
+    border: none;
+}
+.login .have-account div a:hover{
+    background-color:#9D5C0D;
+    transition: 0.5s;
+}
+
+/*Login Page End*/
+
+/*Movie Page Start*/
+.movie .main{
+    display: flex;
+}
+.movie .main .coli{
+    margin: 40px;
+    flex: 30%;
+}
+.movie .main .coli img{
+    width: 300px;
+}
+.movie .main .coli h1{
+    width: 300px;
+    color: #F2F2F2;
+    margin: 10px 0 5px 0;
+    font-size: 40px;
+}
+.movie .main .coli h2{
+    width: 300px;
+    color: #F2F2F2;
+    font-size: 15px;
+    font-weight: lighter;
+    margin-bottom: 5px;
+}
+.movie .main .coli h3{
+    width: 300px;
+    color: #F2F2F2;
+    font-size: 25px;
+    margin-top: 35px;
+    margin-bottom:  5px;
+    font-weight: lighter;
+}
+.movie .main .coli p{
+    width: 300px;
+    color: #999999;
+    font-size: 15px;
+    font-weight: lighter;
+    margin: 15 qpx 0;
+    line-height: 30px;
+}
+.movie .main .coli p:hover{
+    color: #E5890A;
+    
+}
+.movie .main .coli .description{
+    margin: 0 0;
+    line-height: 20px;
+}
+.movie .colii{
+    flex: 70%;
+    text-align: center;
+}
+.movie .colii form{
+    margin-top: 100px;
+}
+.movie .colii form input{
+    display: block;
+    margin: 100px auto;
+    background:none;
+    border: none;
+    border-bottom: #E5890A solid 2px;
+    width: 90%;
+    font-size: 20px;
+    padding: 0 10px;
+    color: #F2F2F2;
+
+}
+.movie .colii form input[type=submit]{
+    background-color: #E5890A;
+    border-radius: 50px;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    color: #F2F2F2;
+    margin-bottom:0 ;
+
+}
+.movie .colii form input:focus{
+    outline: none;
+}
+.movie .colii form h2{
+    color: #F2F2F2;
+    font-size: 17px;
+    margin: 10px;
+    font-weight: lighter;
+}
+.movie .colii .trailer{
+    text-align: center;
+}
+.movie .colii .trailer h1{
+    font-size: 40px;
+    color: #F2F2F2;
+    margin: 20px;
+}
+.movie .colii .trailer iframe{
+    width: 640px;
+    height: 360px;
+    margin-bottom: 10px;
+}
+
+/*Movie Page End*/
+
+/*About Page Start*/
+.about h1, .about p{
+    color: #F2F2F2;
+    margin: 50px auto;
+    width: 80%;
+}
+.about h1{
+    font-size: 50px;
+}
+.about p{
+    font-size: 20px;
+    font-weight: lighter;
+}
+.about .two{
+    font-size: 15px;
+}
+
+/*About Page End*/
+
+/*Cookies Page Start*/
+.cookies h1, .cookies p{
+    color: #F2F2F2;
+    margin: 50px auto;
+    width: 80%;
+}
+.cookies h1{
+    font-size: 50px;
+}
+.cookies p{
+    font-size: 20px;
+    font-weight: lighter;
+}
+.cookies .two{
+    font-size: 15px;
+}
+
+/*Cookies Page End*/
+
+/*Copy Rights Page Start*/
+.copy-rights h1, .copy-rights p{
+    color: #F2F2F2;
+    margin: 50px auto;
+    width: 80%;
+}
+.copy-rights h1{
+    font-size: 50px;
+}
+.copy-rights p{
+    font-size: 20px;
+    font-weight: lighter;
+}
+.copy-rights .two{
+    font-size: 15px;
+}
+
+/*Copy Rights Page End*/
+
+/*Terms & Conditions Page Start*/
+.terms-conditions h1, .terms-conditions p{
+    color: #F2F2F2;
+    margin: 50px auto;
+    width: 80%;
+}
+.terms-conditions h1{
+    font-size: 50px;
+}
+.terms-conditions p{
+    font-size: 20px;
+    font-weight: lighter;
+}
+.terms-conditions .two{
+    font-size: 15px;
+}
+
+/*Terms & Conditions Page End*/
