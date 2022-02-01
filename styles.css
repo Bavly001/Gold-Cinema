@@ -723,20 +723,3 @@
 }
 
 /*Terms & Conditions Page End*/
-
-@media screen and (min-width: 360px) {
-
-    .home .now-playing h1{
-        font-size: 15px;
-    }
-    .home .now-playing .posters{
-        white-space: normal;
-        margin: 15px;
-        justify-content: center;
-    }
-    .home .now-playing .posters a img{
-        display: block;
-        justify-content: center;
-    }
-    
-}
