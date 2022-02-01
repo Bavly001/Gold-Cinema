@@ -151,6 +151,9 @@
 /*Footer End*/
 
 /*Home Page Start*/
+.home{
+    display: block;
+}
 .home .now-playing{
     text-align: center;
 }
