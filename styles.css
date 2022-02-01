@@ -726,7 +726,11 @@
 
 @media screen and (max-width: 360px) {
 
-    .home .now-playing .poster{
+    .home .now-playing .posters{
+        white-space: normal;
+        margin: 15px;
+    }
+    .home .now-playing .posters a img{
         flex-direction: column;
     }
     
