@@ -7,6 +7,10 @@
     margin: 0;
     font-family: GOFont;
 }
+*::selection {
+    background:#9D5C0D;
+  }
+  
 .home, .movies, .movie{
     background: url("./Requirements/Requirements-01.png") no-repeat center center fixed;
     background-size: cover;
