@@ -723,3 +723,11 @@
 }
 
 /*Terms & Conditions Page End*/
+
+@media screen and (max-width: 360px) {
+
+    .home .now-playing .poster{
+        flex-direction: column;
+    }
+    
+}
