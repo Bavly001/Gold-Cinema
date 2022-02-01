@@ -207,6 +207,7 @@
 
 .home .our-services {
     margin: 50px auto;
+    display: block;
 }
 .home .our-services h1{
     color: #F2F2F2;
@@ -217,6 +218,7 @@
 .home .our-services .media{
     align-items: center;
     display: inline-flex;
+    margin: 0 auto;
 }
 .home .our-services .media iframe{
     width: 640px;
