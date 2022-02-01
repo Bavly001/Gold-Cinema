@@ -219,7 +219,7 @@
     align-items: center;
     display: inline-flex;
     margin: 0 auto;
-    text-align: center;
+    align-content: center;
 }
 .home .our-services .media iframe{
     width: 640px;
