@@ -731,7 +731,7 @@
         margin: 15px;
     }
     .home .now-playing .posters a img{
-        flex-direction: column;
+        display: block;
     }
     
 }
