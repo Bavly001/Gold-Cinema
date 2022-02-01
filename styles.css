@@ -727,7 +727,7 @@
 @media screen and (max-width: 360px) {
 
     .home .now-playing h1{
-        font-size: 10px;
+        font-size: 15px;
     }
     .home .now-playing .posters{
         white-space: normal;
@@ -736,6 +736,7 @@
     }
     .home .now-playing .posters a img{
         display: block;
+        justify-content: center;
     }
     
 }
