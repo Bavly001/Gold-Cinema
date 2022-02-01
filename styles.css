@@ -727,10 +727,12 @@
 @media screen and (max-width: 1440px){
     .home, .movies, .movie{
         background: url("./Requirements/Requirements-01.png") no-repeat center center;
+        background-size: cover;
         height: 100%;
     }
     .contact, .help, .sign-up, .login, .about, .cookies, .copy-rights, .terms-conditions{
         background: url("./Requirements/Requirements-04.png") no-repeat center center;
+        background-size: cover;
         height: 100%;
     }
     /*--------------------------------------------------*/
