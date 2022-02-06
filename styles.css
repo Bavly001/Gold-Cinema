@@ -857,4 +857,18 @@
     .movies .posters .poster p{
         font-size: 10px;
     }
+    /*----------------------*/
+    .help form h1{
+        font-size: 25px;
+    }
+    .help form h2{
+        font-size: 15px;
+    }
+    .help form input ,.help form textarea{
+        width: 400px;
+    }
+    .help form input[type=submit]{
+        width: 430px;
+        margin-bottom: 20px;
+    }
 }
