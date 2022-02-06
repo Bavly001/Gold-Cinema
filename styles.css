@@ -890,6 +890,10 @@
     .home .now-playing .sign-up-bottom{
         font-size: 10px;
     }
+    .home .our-services{
+        justify-content: center;
+        align-content: center;
+    }
     .home .our-services .media{
         display: flex;
         flex-direction: column;
