@@ -866,4 +866,10 @@
         width: 330px;
         margin-bottom: 20px;
     }
+    .help form h1{
+        font-size: 25px;
+    }
+    .home form h2{
+        font-size: 15px;
+    }
 }
