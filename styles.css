@@ -869,7 +869,46 @@
     .help form h1{
         font-size: 25px;
     }
-    .home form h2{
+    .help form h2{
         font-size: 15px;
+    }
+    /*-----------------------*/
+    .home .now-playing h1{
+        font-size: 30px;
+    }
+    .home .now-playing .posters{
+        display: flex;
+        flex-direction: column;
+    }
+    .home .now-playing .posters a img{
+        width: 150px;
+    }
+    .home .now-playing .more-movies{
+        width: 100px;
+        font-size: 15px;
+    }
+    .home .now-playing .sign-up-bottom{
+        font-size: 10px;
+    }
+    .home .our-services .media{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+    .home .our-services h1{
+        text-align: center;
+        font-size: 30px;
+        margin-bottom: 20px;
+
+    }
+    .home .our-services .media iframe{
+        width: 256px;
+        height: 144px;
+    }
+    .home .our-services .media .services img{
+        width: 50px;
+    }
+    .home .our-services .media .services .image p{
+        font-size: 10px;
     }
 }
