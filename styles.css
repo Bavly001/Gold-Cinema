@@ -893,6 +893,7 @@
     .home .our-services{
         justify-content: center;
         align-content: center;
+        margin:20px auto ;
     }
     .home .our-services .media{
         display: flex;
