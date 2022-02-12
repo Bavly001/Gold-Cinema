@@ -896,8 +896,7 @@
         margin:20px auto ;
     }
     .home .our-services .media{
-        display: flex;
-        flex-direction: column;
+        display: block;
         align-content: center;
         justify-content: center;
     }
@@ -915,9 +914,6 @@
         align-items: center;
     }
     .home .our-services .media .services img{
-        justify-content: center;
-        align-items: center;
-        margin: 20px auto;
         width: 50px;
     }
     .home .our-services .media .services .image p{
