@@ -909,6 +909,9 @@
     .home .our-services .media iframe{
         width: 426.67px;
         height: 240px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     .home .our-services .media .services img{
         justify-content: center;
