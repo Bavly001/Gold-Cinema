@@ -895,7 +895,7 @@
         align-content: center;
         margin:20px auto ;
     }
-    .home .our-services .media{
+    .home .our-services .media .services{
         display: block;
         align-content: center;
         justify-content: center;
