@@ -895,6 +895,11 @@
         align-content: center;
         margin:20px auto ;
     }
+    .home .our-services .media{
+        display: flex;
+        align-content: center;
+        justify-content: center;
+    }
     .home .our-services .media .services{
         display: flex;
         align-content: center;
