@@ -897,6 +897,7 @@
     }
     .home .our-services .media{
         display: flex;
+        flex-direction: column;
         align-content: center;
         justify-content: center;
     }
