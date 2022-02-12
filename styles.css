@@ -895,7 +895,7 @@
         align-content: center;
         margin:20px auto ;
     }
-    .home .our-services{
+    .home .our-services .media{
         display: flex;
         flex-direction: column;
         align-content: center;
@@ -903,8 +903,7 @@
     }
     .home .our-services .media .services{
         display: flex;
-        align-content: center;
-        justify-content: center;
+        margin: 0 auto;
     }
     .home .our-services h1{
         text-align: center;
