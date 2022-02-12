@@ -724,7 +724,7 @@
 
 /*Terms & Conditions Page End*/
 
-@media screen and (max-width: 1440px){
+@media screen and (max-width: 480px){
     .home, .movies, .movie{
         background: url("./Requirements/Requirements-01.png") no-repeat center center;
         background-size: cover;
