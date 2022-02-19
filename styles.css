@@ -7,9 +7,13 @@
     margin: 0;
     font-family: GOFont;
 }
-*::selection {
+::selection {
     background:#9D5C0D;
   }
+
+::-webkit-scrollbar{
+    display: none;
+}
   
 .home, .movies, .movie{
     background: url("./Requirements/Requirements-01.png") no-repeat center center fixed;
